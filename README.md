@@ -3,7 +3,7 @@
 While it is well known that population differences from genetics, sex, race, and environmental fac- tors contribute to disease, AI studies in medicine have largely focused on locoregional patient cohorts with less diverse data sources. Such limitation stems from barriers to large-scale data share and ethical concerns over data privacy. Federated learning (FL) is one potential pathway for AI development that enables learning across hospitals without data share. In this study, we show the results of various FL strategies on one of the largest and most diverse chest CT datasets: 21 participating hospitals across five continents that comprise > 10,000 patients (> 1 million CT 2D frames). We propose an FL strategy that leverages synthetically-generated data to overcome class and size imbalances. We also describe the sources of data heterogeneity in the context of FL, and show how even among the correctly labeled populations, disparities can arise due to these biases. Our second high level goal is to show our FL sensitivity to privacy and ways to defend against adversaries through existing algorithms. We illustrate that FL can provide some baseline level of privacy over centralized data sharing (CDS). However, even with FL and Differentially-Private training (DP) on FL, site and membership information are still vulnerable to inference attacks. Finally, we show that the use of good synthetic CT images can simultaneously provide an uplift in both FL performance and privacy.
 
 
-This project is segmented into two parts: 1) exploring FL training and 2) privacy attacks.
+This project is segmented into two parts: 1) exploring FL training and 2) privacy attacks. Code is currently being cleaned and organized (within 1 week).
 
 
 ## Todo Checklist
